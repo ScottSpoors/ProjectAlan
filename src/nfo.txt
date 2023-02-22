@@ -3,6 +3,7 @@ ProjectAlan
 	src
 		blend	[x.blend files]
 		fbx		[x.fbx files]
+		img		[development images]
 		psd		[x.psd files]
 		tex		[texture image files]
 		uvm		[UV maps for models]
