@@ -1,0 +1,42 @@
+Group Work - 'Alan' Game
+
+Turing Machine parallels:
+
+Machine Head = Alan (Robot)
+Tape = Conveyor Belt
+Tape 'Squares' = Boxes
+State = Alan's Mood
+Symbols = Box Colours
+
+
+Player Objectives:
+
+Player may begin with only 1 or 2 moods, and 2 colours, but unlock more as the
+game progresses.
+
+Player goal is not only to appropriately colour the boxes, but to do so in the fewest
+steps (and fewest/simplest) instructions possible. 
+
+At the beginning of each 'stage', the player designates the appropriate actions to take
+(for each mood) when specific colours are encountered.
+E.g;
+- Recolour Box
+- Swap boxes
+- 'Spawn' box
+- Do nothing
+- Move along
+
+After 'Go' button is pressed, the process begins until success or failure.
+
+Tasks may include... 
+- Paint all boxes a specific colour
+- Order boxes by colour
+- Create a specific pattern
+
+
+
+Extras:
+
+- Fail states. (Falling down a trapdoor and being replaced)
+- Player's Role/Character?
+- Tryannical Overseer with rude dialogue 
