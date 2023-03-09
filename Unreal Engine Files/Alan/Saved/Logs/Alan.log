@@ -2263,3 +2263,65 @@ Make sure 'ControlPanel_C' has been compiled for  Get buttonDelay
 [2023.03.09-23.30.20:449][781]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.09-23.30.20:450][781]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
 [2023.03.09-23.30.20:450][781]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
+[2023.03.09-23.47.35:436][ 41]BlueprintLog: New page: Compile ControlPanel
+[2023.03.09-23.47.36:525][ 41]LogUObjectHash: Compacting FUObjectHashTables data took  13.70ms
+[2023.03.09-23.47.45:418][325]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.09-23.47.45:531][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.09-23.47.45:531][325]PIE: New page: PIE session: GameEnvironment (9 Mar 2023, 23:47:45)
+[2023.03.09-23.47.45:531][325]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.09-23.47.45:577][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044776s)
+[2023.03.09-23.47.45:579][325]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.09-23.47.45:580][325]LogPlayLevel: PIE: World Init took: (0.002960s)
+[2023.03.09-23.47.45:580][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.048081s)
+[2023.03.09-23.47.45:675][325]LogUObjectHash: Compacting FUObjectHashTables data took  10.97ms
+[2023.03.09-23.47.45:680][325]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.09-23.47.45:680][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.09-23.47.45:680][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.09-23.47.45:681][325]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.09-23.47.45:681][325]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.09-23.47.45:691][325]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.09-23.47.45:691][325]LogAudioMixer: Display: 1: FrontRight
+[2023.03.09-23.47.45:731][325]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.09-23.47.45:735][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.09-23.47.45:735][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.09-23.47.45:735][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.09-23.47.45:737][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.09-23.47.45:737][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.09-23.47.45:737][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.09-23.47.45:785][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.09-23.47.45:785][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.09-23.47.45:786][325]LogInit: FAudioDevice initialized.
+[2023.03.09-23.47.45:786][325]LogAudio: Display: Audio Device (ID: 5) registered with world 'GameEnvironment'.
+[2023.03.09-23.47.45:800][325]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.09-23.47.45:812][325]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.09-23.47.45
+[2023.03.09-23.47.45:816][325]LogWorld: Bringing up level for play took: 0.014660
+[2023.03.09-23.47.45:816][325]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.03.09-23.47.45:825][325]PIE: Server logged in
+[2023.03.09-23.47.45:827][325]PIE: Play in editor total start time 0.391 seconds.
+[2023.03.09-23.47.58:636][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-23.47.58:636][980]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.09-23.47.58:637][980]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-23.47.58:639][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-23.47.58:667][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.09-23.47.58:701][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-23.47.58:776][980]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.09-23.47.58:777][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.09-23.47.58:779][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.09-23.47.58:829][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-23.47.58:841][980]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2023.03.09-23.47.58:924][981]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.09-23.48.01:230][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   7.43ms
+[2023.03.09-23.48.02:444][ 35]LogSlate: Window 'Save Content' being destroyed
+[2023.03.09-23.48.03:056][ 35]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ControlPanelB118DC7841ED7E882951C4BB0E703233.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/ControlPanel.uasset'
+[2023.03.09-23.48.03:137][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.03.09-23.48.03:301][ 35]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment7562A4F4419B3F223ED930BA7E4FFBE9.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.09-23.48.03:331][ 35]LogFileHelpers: Saving map 'GameEnvironment' took 0.271
+[2023.03.09-23.48.03:361][ 35]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.09-23.48.03:361][ 35]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.09-23.48.03:361][ 35]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
