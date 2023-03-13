@@ -6855,3 +6855,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.13-16.59.36:346][597]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.13-16.59.36:346][597]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
 [2023.03.13-16.59.36:346][597]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.13-17.10.25:222][309]BlueprintLog: New page: Compile ControlPanel
+[2023.03.13-17.10.25:346][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.03.13-17.10.48:071][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.03.13-17.10.49:488][434]LogSlate: Window 'Save Content' being destroyed
+[2023.03.13-17.10.50:617][434]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ControlPanelB8D898B7405F4A0992CB61BBC9EC239E.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/ControlPanel.uasset'
+[2023.03.13-17.10.50:667][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.13-17.10.51:194][434]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironmentDD4383D348FC9A20F115C79842208622.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.13-17.10.51:241][434]LogFileHelpers: Saving map 'GameEnvironment' took 0.602
+[2023.03.13-17.10.51:295][434]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.13-17.10.51:295][434]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
+[2023.03.13-17.10.51:295][434]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
