@@ -1,0 +1,2 @@
+Make all black boxes white
+6
