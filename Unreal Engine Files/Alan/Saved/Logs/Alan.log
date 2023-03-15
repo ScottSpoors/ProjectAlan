@@ -1383,3 +1383,35 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.15-12.26.59:442][ 51]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.15-12.26.59:443][ 51]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay
 [2023.03.15-12.26.59:443][ 51]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.15-12.32.00:657][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IORail2_IOconnectBox_001)
+[2023.03.15-12.32.22:334][688]Cmd: TRANSACTION UNDO
+[2023.03.15-12.32.22:334][688]LogEditorTransaction: Undo Move Actors
+[2023.03.15-12.32.57:431][362]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PuzzleBP/Blueprints/ALAN.ALAN
+[2023.03.15-12.34.08:934][770]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/PuzzleBP/Blueprints/CommandInterface/InputEnum.InputEnum
+[2023.03.15-12.34.35:806][807]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/InputEnum413E426741E724E9E6710E935B5FFE78.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/InputEnum.uasset'
+[2023.03.15-12.34.35:845][807]AssetCheck: New page: Asset Save: InputEnum
+[2023.03.15-12.34.35:846][807]LogContentValidation: Display: Validating UserDefinedEnum /Game/PuzzleBP/Blueprints/CommandInterface/InputEnum.InputEnum
+[2023.03.15-12.34.39:321][920]BlueprintLog: New page: Compile OutputDisplay
+[2023.03.15-12.34.39:609][920]LogUObjectHash: Compacting FUObjectHashTables data took   8.94ms
+[2023.03.15-12.36.47:816][293]BlueprintLog: New page: Compile OutputDisplay
+[2023.03.15-12.36.48:095][293]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2023.03.15-12.36.56:093][594]LogRenderer: Reallocating scene render targets to support 1064x484 Format 10 NumSamples 1 (Frame:93974).
+[2023.03.15-12.37.21:159][680]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2023.03.15-12.37.21:301][680]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment_Auto4790265C343703A148A2B1C8072570CE5.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Maps/GameEnvironment_Auto4.umap'
+[2023.03.15-12.37.21:316][680]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PuzzleBP/Maps/GameEnvironment' took 0.225
+[2023.03.15-12.37.21:316][680]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.225
+[2023.03.15-12.37.21:318][680]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel] ([1] browsable assets)...
+[2023.03.15-12.37.21:366][680]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel]
+[2023.03.15-12.37.21:366][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel]
+[2023.03.15-12.37.21:916][680]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ControlPanel_Auto47A4A99614356ED40C10F2580608974A9.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel_Auto4.uasset'
+[2023.03.15-12.37.21:920][680]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay] ([1] browsable assets)...
+[2023.03.15-12.37.21:952][680]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay]
+[2023.03.15-12.37.21:952][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay]
+[2023.03.15-12.37.22:262][680]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/OutputDisplay_Auto4C65D31244797C4A3C8A60695A9635A34.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay_Auto4.uasset'
+[2023.03.15-12.37.22:266][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/ALAN] ([1] browsable assets)...
+[2023.03.15-12.37.22:266][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/ALAN]
+[2023.03.15-12.37.22:304][680]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ALAN_Auto4E6198B1A4127E411095D1FAD12D27E51.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/ALAN_Auto4.uasset'
+[2023.03.15-12.37.22:306][680]LogFileHelpers: Auto-saving content packages took 0.989
+[2023.03.15-12.41.28:783][849]LogAudioMixer: Resetting audio stream to device id 
+[2023.03.15-12.41.28:859][849]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.15-12.41.28:859][849]LogAudioMixer: Display: 1: FrontRight
