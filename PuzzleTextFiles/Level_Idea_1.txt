@@ -1,0 +1,8 @@
+Set the boxes to the following pattern: Black, White, Pink, Blue, Black
+5
+01000
+11200
+23001
+30220
+11013
+01230
