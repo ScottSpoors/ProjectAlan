@@ -844,3 +844,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.21-11.02.06:660][789]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.21-11.02.06:660][789]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
 [2023.03.21-11.02.06:660][789]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.21-11.06.06:385][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
