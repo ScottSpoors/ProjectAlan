@@ -13616,3 +13616,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.21-12.01.39:344][203]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2023.03.21-12.01.43:571][668]LogSlate: Window 'Message Log' being destroyed
 [2023.03.21-12.01.43:582][668]LogSlate: Window 'Message Log' being destroyed
+[2023.03.21-12.03.32:775][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.03.21-12.03.34:781][421]LogSlate: Window 'Save Content' being destroyed
+[2023.03.21-12.03.34:797][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/ALAN" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/ALAN.uasset" SILENT=true
+[2023.03.21-12.03.35:249][421]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ALANA807AF4E486F788F35B6FFBD1FAEB7FD.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/ALAN.uasset'
+[2023.03.21-12.03.35:293][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.21-12.03.35:969][421]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment32CDDE0644E596C7918C1DA0C2731AE7.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.21-12.03.36:012][421]LogFileHelpers: Saving map 'GameEnvironment' took 0.750
+[2023.03.21-12.03.36:476][421]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/OutputDisplay41D8C0C14EDEC62F935D9B98A22949C0.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.uasset'
+[2023.03.21-12.03.36:491][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ParticleFX/spraySystemBP" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/ParticleFX/spraySystemBP.uasset" SILENT=true
+[2023.03.21-12.03.36:593][421]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/spraySystemBPB7E220F546C677B15CBAC2A048AC868C.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/ParticleFX/spraySystemBP.uasset'
+[2023.03.21-12.03.36:638][421]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.21-12.03.36:638][421]LogContentValidation: Display: Validating Blueprint /Game/ParticleFX/spraySystemBP.spraySystemBP
+[2023.03.21-12.03.36:638][421]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/ALAN.ALAN
+[2023.03.21-12.03.36:638][421]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay
+[2023.03.21-12.03.36:638][421]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
