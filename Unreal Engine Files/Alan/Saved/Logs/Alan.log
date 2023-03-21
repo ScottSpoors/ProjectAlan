@@ -845,3 +845,160 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.21-11.02.06:660][789]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/ControlPanel.ControlPanel
 [2023.03.21-11.02.06:660][789]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
 [2023.03.21-11.06.06:385][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.11.35:277][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.11.36:990][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight)
+[2023.03.21-11.11.38:405][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight2)
+[2023.03.21-11.11.48:421][181]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PuzzleBP/Blueprints/BoxChecker.BoxChecker
+[2023.03.21-11.11.50:582][372]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2023.03.21-11.12.15:294][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.12.29:777][920]LogStaticMesh: Building static mesh ConveyorEnd_ConeyorEndScan_001...
+[2023.03.21-11.12.29:800][920]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Meshes/Conveyor/ConveyorEnd_ConeyorEndScan_001.ConveyorEnd_ConeyorEndScan_001
+[2023.03.21-11.12.53:831][636]LogEditorTransaction: Undo Edit Static Mesh
+[2023.03.21-11.12.54:239][648]LogEditorTransaction: Undo Make New Scene Root
+[2023.03.21-11.13.55:439][738]Cmd: MODE GRID=0
+[2023.03.21-11.14.00:307][291]Cmd: MODE GRID=1
+[2023.03.21-11.14.17:365][278]Cmd: MODE GRID=0
+[2023.03.21-11.17.01:841][179]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.21-11.17.01:862][179]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.21-11.17.01:865][179]LogPlayLevel: [PlayLevel] Compiling BoxChecker before play...
+[2023.03.21-11.17.01:968][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.03.21-11.17.01:970][179]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2023.03.21-11.17.01:973][179]PIE: New page: PIE session: GameEnvironment (21 Mar 2023, 11:17:01)
+[2023.03.21-11.17.01:975][179]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.03.21-11.17.01:976][179]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.21-11.17.01:977][179]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.21-11.17.01:991][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014196s)
+[2023.03.21-11.17.01:992][179]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.21-11.17.01:992][179]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2023.03.21-11.17.01:992][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.015341s)
+[2023.03.21-11.17.02:018][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.03.21-11.17.02:018][179]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.21-11.17.02:019][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.21-11.17.02:019][179]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.21-11.17.02:019][179]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.21-11.17.02:024][179]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.21-11.17.02:024][179]LogAudioMixer: Display: 1: FrontRight
+[2023.03.21-11.17.02:033][179]LogAudioMixer: Display: Using Audio Device HP E273m (3- NVIDIA High Definition Audio)
+[2023.03.21-11.17.02:033][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.21-11.17.02:033][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.21-11.17.02:033][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.21-11.17.02:034][179]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.21-11.17.02:034][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.21-11.17.02:034][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.21-11.17.02:044][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.21-11.17.02:044][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.21-11.17.02:044][179]LogInit: FAudioDevice initialized.
+[2023.03.21-11.17.02:044][179]LogAudio: Display: Audio Device (ID: 2) registered with world 'GameEnvironment'.
+[2023.03.21-11.17.02:115][179]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.21-11.17.02:120][179]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 0) at 2023.03.21-11.17.02
+[2023.03.21-11.17.02:121][179]LogWorld: Bringing up level for play took: 0.003938
+[2023.03.21-11.17.02:121][179]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.03.21-11.17.02:135][179]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.03.21-11.17.02:137][179]LogBlueprintUserMessages: [Cube_2] Hello
+[2023.03.21-11.17.02:137][179]LogBlueprintUserMessages: [Cube2_2] Hello
+[2023.03.21-11.17.02:161][179]PIE: Server logged in
+[2023.03.21-11.17.02:162][179]PIE: Play in editor total start time 0.301 seconds.
+[2023.03.21-11.17.49:491][803]Cmd: LevelEditor.ToggleImmersive
+[2023.03.21-11.17.49:579][804]LogRenderer: Reallocating scene render targets to support 1384x760 Format 10 NumSamples 1 (Frame:5626).
+[2023.03.21-11.17.49:663][805]LogRenderer: Reallocating scene render targets to support 1880x1020 Format 10 NumSamples 1 (Frame:5628).
+[2023.03.21-11.17.49:737][806]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:5630).
+[2023.03.21-11.18.24:196][925]Cmd: LevelEditor.ToggleImmersive
+[2023.03.21-11.18.30:306][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.21-11.18.30:306][630]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.21-11.18.30:306][630]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.21-11.18.30:306][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.21-11.18.30:316][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.21-11.18.30:331][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.21-11.18.30:361][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.21-11.18.30:362][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.21-11.18.30:362][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.21-11.18.30:392][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2023.03.21-11.18.30:442][631]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.03.21-11.19.34:111][436]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.19.34:154][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.03.21-11.20.01:270][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.20.14:705][148]Cmd: DELETE
+[2023.03.21-11.20.14:705][148]Cmd: ACTOR DELETE
+[2023.03.21-11.20.14:713][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.21-11.20.14:738][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.03.21-11.20.14:740][148]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2023.03.21-11.20.16:478][356]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.20.27:262][ 62]Cmd: TRANSACTION UNDO
+[2023.03.21-11.20.27:262][ 62]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.21-11.20.28:772][198]Cmd: TRANSACTION UNDO
+[2023.03.21-11.20.28:772][198]LogEditorTransaction: Undo Delete Actors
+[2023.03.21-11.20.39:927][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.20.41:526][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ConveyorEnd_ConeyorEndScan_001)
+[2023.03.21-11.20.41:980][850]Cmd: DELETE
+[2023.03.21-11.20.41:980][850]Cmd: ACTOR DELETE
+[2023.03.21-11.20.41:983][850]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.21-11.20.42:006][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.03.21-11.20.42:009][850]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2023.03.21-11.20.42:889][956]LogEditorViewport: Clicking on Actor (LMB): IORail2_IOconnectBox_001_Blueprint_C (IORail2_IOconnectBox_001_Blueprint)
+[2023.03.21-11.20.43:554][ 33]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.21.34:129][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight)
+[2023.03.21-11.21.37:718][511]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.21.40:699][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight)
+[2023.03.21-11.21.41:821][999]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.22.01:583][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight)
+[2023.03.21-11.22.08:023][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight2)
+[2023.03.21-11.23.29:943][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.03.21-11.23.30:626][176]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment_Auto1E1631C294C04BF3055C8AF84B60FCAD9.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Maps/GameEnvironment_Auto1.umap'
+[2023.03.21-11.23.30:643][176]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PuzzleBP/Maps/GameEnvironment' took 0.725
+[2023.03.21-11.23.30:643][176]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.725
+[2023.03.21-11.23.30:644][176]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/BoxChecker] ([1] browsable assets)...
+[2023.03.21-11.23.30:656][176]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/BoxChecker.BoxChecker]
+[2023.03.21-11.23.30:656][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/BoxChecker]
+[2023.03.21-11.23.30:774][176]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/BoxChecker_Auto1BBF1C98248B30320298F1086653F2FE3.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/BoxChecker_Auto1.uasset'
+[2023.03.21-11.23.30:780][176]LogFileHelpers: Auto-saving content packages took 0.136
+[2023.03.21-11.25.05:293][690]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.25.05:340][690]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.03.21-11.25.15:252][859]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.26.20:120][247]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.26.20:181][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2023.03.21-11.26.34:996][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight2)
+[2023.03.21-11.26.39:940][530]LogEditorViewport: Clicking on Actor (LMB): BoxChecker_C (BoxChecker)
+[2023.03.21-11.27.17:317][941]LogEditorTransaction: Undo Set Location
+[2023.03.21-11.27.17:549][947]LogEditorTransaction: Undo Set Location
+[2023.03.21-11.28.49:698][618]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.28.49:760][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.03.21-11.28.57:716][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (IndustLight)
+[2023.03.21-11.28.59:682][685]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (IndustLight2)
+[2023.03.21-11.29.01:728][927]Cmd: DELETE
+[2023.03.21-11.29.01:728][927]Cmd: ACTOR DELETE
+[2023.03.21-11.29.01:731][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.21-11.29.01:732][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.21-11.29.01:756][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.03.21-11.29.01:758][927]LogEditorActor: Deleted 2 Actors (0.030 secs)
+[2023.03.21-11.29.05:190][333]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.29.05:233][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.03.21-11.31.17:804][ 20]LogEditorTransaction: Undo Replace component used material
+[2023.03.21-11.31.36:267][ 57]LogEditorTransaction: Undo Replace component used material
+[2023.03.21-11.32.16:058][554]BlueprintLog: New page: Compile BoxChecker
+[2023.03.21-11.32.16:107][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2023.03.21-11.33.30:728][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.03.21-11.33.31:405][437]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment_Auto27788A0B543C1559CF0A550B0E7269A8F.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Maps/GameEnvironment_Auto2.umap'
+[2023.03.21-11.33.31:422][437]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PuzzleBP/Maps/GameEnvironment' took 0.720
+[2023.03.21-11.33.31:422][437]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.720
+[2023.03.21-11.33.31:422][437]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/BoxChecker] ([1] browsable assets)...
+[2023.03.21-11.33.31:430][437]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/BoxChecker.BoxChecker]
+[2023.03.21-11.33.31:430][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/BoxChecker]
+[2023.03.21-11.33.31:556][437]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/BoxChecker_Auto2BF6C375E4E3A0048F9E959A4416834FE.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/BoxChecker_Auto2.uasset'
+[2023.03.21-11.33.31:570][437]LogFileHelpers: Auto-saving content packages took 0.147
+[2023.03.21-11.33.45:269][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.21-11.33.46:534][ 65]LogSlate: Window 'Save Content' being destroyed
+[2023.03.21-11.33.46:549][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/BoxChecker" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/BoxChecker.uasset" SILENT=true
+[2023.03.21-11.33.46:665][ 65]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/BoxCheckerB991438D4F1A3EBCFFDA889BA6B11DD1.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/BoxChecker.uasset'
+[2023.03.21-11.33.46:700][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.21-11.33.47:374][ 65]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment37D24DA246DFC3EB9353998A3AFF5265.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.21-11.33.47:408][ 65]LogFileHelpers: Saving map 'GameEnvironment' took 0.730
+[2023.03.21-11.33.47:446][ 65]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.21-11.33.47:446][ 65]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/BoxChecker.BoxChecker
+[2023.03.21-11.33.47:446][ 65]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
