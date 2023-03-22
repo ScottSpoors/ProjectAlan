@@ -1,2 +1,8 @@
 Make all black boxes white
 6
+01101
+00001
+11001
+01010
+11011
+11111

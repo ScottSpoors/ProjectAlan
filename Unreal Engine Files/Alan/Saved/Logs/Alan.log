@@ -841,3 +841,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.22-21.25.15:453][ 63]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
 [2023.03.22-21.25.16:957][ 63]LogSlate: Took 0.010614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2023.03.22-21.25.17:189][ 64]LogSlate: Took 0.007776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.22-21.34.15:620][520]BlueprintLog: New page: Compile OutputDisplay
+[2023.03.22-21.34.15:807][520]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2023.03.22-21.34.16:010][520]LogSlate: Took 0.013417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.22-21.35.28:045][ 45]BlueprintLog: New page: Compile OutputDisplay
+[2023.03.22-21.35.28:211][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2023.03.22-21.35.36:229][229]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.03.22-21.35.37:453][229]LogSlate: Window 'Save Content' being destroyed
+[2023.03.22-21.35.37:541][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.03.22-21.35.37:661][229]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironmentCC041F254BB9BEA7FF10919B7789095E.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.22-21.35.37:679][229]LogFileHelpers: Saving map 'GameEnvironment' took 0.167
+[2023.03.22-21.35.37:943][229]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/OutputDisplayF834E07849F8134A8374738F4430C143.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.uasset'
+[2023.03.22-21.35.37:963][229]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.22-21.35.37:963][229]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay
+[2023.03.22-21.35.37:963][229]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
