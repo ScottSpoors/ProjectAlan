@@ -1,0 +1,8 @@
+Change the boxes to the following pattern: Purple, Purple, Purple, Green, Green.
+5
+00455
+43435
+55544
+00000
+33413
+44455

@@ -1,0 +1,8 @@
+Change the boxes to the following pattern: Pink, Purple, Pink, Purple, Pink.
+5
+44242
+22222
+22442
+44444
+42424
+24242

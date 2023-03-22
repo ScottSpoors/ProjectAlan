@@ -1,0 +1,8 @@
+Change the boxes to the following pattern: Yellow, Yellow, Green, Orange, Orange.
+4
+77777
+66666
+77566
+66677
+66777
+66577

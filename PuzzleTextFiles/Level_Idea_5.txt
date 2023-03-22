@@ -1,0 +1,8 @@
+Change the boxes to the following pattern: Pink, White, White, Pink, White.
+3
+00501
+22201
+51100
+21151
+25551
+21121

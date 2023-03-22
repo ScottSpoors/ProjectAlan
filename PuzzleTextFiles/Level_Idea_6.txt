@@ -1,0 +1,8 @@
+Change the boxes to the following pattern: Blue, Blue, Pink, Blue, Blue.
+2
+33222
+36222
+72722
+67166
+37700
+33233
