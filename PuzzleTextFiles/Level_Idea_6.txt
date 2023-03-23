@@ -1,8 +1,8 @@
 Change the boxes to the following pattern: Blue, Blue, Pink, Blue, Blue.
 2
-33222
-36222
-72722
-67166
-37700
-33233
+3,3,2,2,2
+3,6,2,2,2
+7,2,7,2,2
+6,7,1,6,6
+3,7,7,0,0
+3,3,2,3,3
