@@ -20451,3 +20451,501 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.23-14.57.15:866][261]LogContentValidation: Display: Validating Blueprint /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros
 [2023.03.23-14.57.15:866][261]LogContentValidation: Display: Validating Blueprint /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary
 [2023.03.23-14.57.15:866][261]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.23-15.00.16:457][186]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2023.03.23-15.00.18:824][325]Cmd: DELETE
+[2023.03.23-15.00.18:825][325]Cmd: ACTOR DELETE
+[2023.03.23-15.00.18:842][325]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.00.18:911][325]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2023.03.23-15.00.18:929][325]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2023.03.23-15.01.29:659][ 29]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube_C (Cube)
+[2023.03.23-15.01.30:847][ 96]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube_C (Cube11)
+[2023.03.23-15.01.31:391][126]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube_C (Cube12)
+[2023.03.23-15.01.37:002][446]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube_C (Cube13)
+[2023.03.23-15.01.38:312][520]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube_C (Cube14)
+[2023.03.23-15.01.41:640][717]Cmd: DELETE
+[2023.03.23-15.01.41:641][717]Cmd: ACTOR DELETE
+[2023.03.23-15.01.41:653][717]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.01.41:653][717]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.01.41:654][717]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.01.41:655][717]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.01.41:656][717]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.01.41:727][717]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.03.23-15.01.41:733][717]LogEditorActor: Deleted 5 Actors (0.093 secs)
+[2023.03.23-15.02.04:143][748]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-15.02.04:167][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-15.02.04:167][748]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 15:02:04)
+[2023.03.23-15.02.04:167][748]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-15.02.04:254][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087173s)
+[2023.03.23-15.02.04:256][748]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-15.02.04:257][748]LogPlayLevel: PIE: World Init took: (0.002481s)
+[2023.03.23-15.02.04:257][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.089883s)
+[2023.03.23-15.02.04:304][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2023.03.23-15.02.04:308][748]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-15.02.04:308][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-15.02.04:308][748]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-15.02.04:308][748]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-15.02.04:315][748]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-15.02.04:315][748]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-15.02.04:342][748]LogAudioMixer: Display: Using Audio Device Speakers (Synaptics Audio)
+[2023.03.23-15.02.04:342][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-15.02.04:343][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-15.02.04:343][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-15.02.04:344][748]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-15.02.04:344][748]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-15.02.04:344][748]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-15.02.04:376][748]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-15.02.04:376][748]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-15.02.04:376][748]LogInit: FAudioDevice initialized.
+[2023.03.23-15.02.04:376][748]LogAudio: Display: Audio Device (ID: 27) registered with world 'GameEnvironment'.
+[2023.03.23-15.02.04:385][748]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-15.02.04:396][748]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-15.02.04
+[2023.03.23-15.02.04:397][748]LogWorld: Bringing up level for play took: 0.011448
+[2023.03.23-15.02.04:397][748]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2023.03.23-15.02.04:418][748]PIE: Server logged in
+[2023.03.23-15.02.04:419][748]PIE: Play in editor total start time 0.257 seconds.
+[2023.03.23-15.02.04:421][748]LogBlueprintUserMessages: [BoxSpawner_2] true
+[2023.03.23-15.02.04:483][749]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:508][750]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:552][751]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:588][752]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:614][753]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:637][754]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:661][755]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:685][756]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:709][757]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:734][758]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:759][759]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:784][760]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:808][761]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:833][762]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:859][763]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:885][764]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:910][765]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:936][766]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:961][767]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.04:984][768]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:007][769]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:031][770]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:055][771]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:082][772]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:104][773]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:127][774]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:148][775]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:171][776]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:193][777]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:218][778]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:238][779]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:264][780]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:290][781]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:314][782]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:339][783]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:362][784]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:386][785]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:408][786]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:431][787]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:453][788]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:474][789]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:498][790]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:525][791]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:548][792]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:569][793]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:590][794]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:611][795]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:636][796]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:657][797]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:677][798]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:698][799]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:719][800]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:740][801]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:763][802]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:785][803]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:805][804]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:825][805]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:847][806]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:869][807]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:893][808]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:914][809]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:939][810]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:961][811]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.05:982][812]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:002][813]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:023][814]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:049][815]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:071][816]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:092][817]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:114][818]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:138][819]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:162][820]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:184][821]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:204][822]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:228][823]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:253][824]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:275][825]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:299][826]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:320][827]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:340][828]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:363][829]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:382][830]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:403][831]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:423][832]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:443][833]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:468][834]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:489][835]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:512][836]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:533][837]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:558][838]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:583][839]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:606][840]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:628][841]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:648][842]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:669][843]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:687][844]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:708][845]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:729][846]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:750][847]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:769][848]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:788][849]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:806][850]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:828][851]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:848][852]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:868][853]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:886][854]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:905][855]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:926][856]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:946][857]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:964][858]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.06:983][859]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:002][860]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:020][861]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:040][862]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:059][863]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:079][864]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:097][865]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:119][866]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:137][867]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:156][868]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:176][869]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:197][870]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:217][871]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:236][872]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:256][873]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:276][874]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:296][875]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:319][876]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:338][877]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:358][878]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:383][879]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:406][880]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:425][881]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:445][882]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:466][883]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:488][884]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:507][885]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:527][886]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:546][887]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:567][888]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:585][889]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:605][890]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:625][891]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:646][892]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:664][893]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:685][894]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:703][895]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:722][896]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:741][897]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:760][898]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:780][899]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:799][900]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:817][901]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:836][902]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:854][903]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:874][904]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:894][905]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:916][906]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:934][907]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:953][908]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:972][909]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.07:992][910]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:011][911]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:031][912]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:050][913]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:070][914]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:089][915]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:108][916]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:130][917]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:151][918]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:168][919]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:187][920]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:205][921]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:225][922]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:243][923]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:264][924]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:284][925]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:304][926]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:323][927]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:343][928]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:362][929]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:380][930]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:400][931]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:421][932]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:440][933]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:462][934]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:483][935]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:505][936]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:525][937]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:549][938]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:569][939]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:587][940]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:607][941]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:628][942]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:646][943]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:666][944]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:685][945]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:706][946]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:727][947]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:747][948]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:769][949]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:788][950]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:809][951]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:827][952]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:847][953]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:868][954]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:888][955]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:907][956]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:929][957]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:947][958]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:967][959]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.08:986][960]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:007][961]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:025][962]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:045][963]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:064][964]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:082][965]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:101][966]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:123][967]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:145][968]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:163][969]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:185][970]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:202][971]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:222][972]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:240][973]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:262][974]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:285][975]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:310][976]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:331][977]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:354][978]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:378][979]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:399][980]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:419][981]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:441][982]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:464][983]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:488][984]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:510][985]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:531][986]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:553][987]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:578][988]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:599][989]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:620][990]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:640][991]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:661][992]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:682][993]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:703][994]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:723][995]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:742][996]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:765][997]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:784][998]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:804][999]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:822][  0]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:842][  1]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:861][  2]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:882][  3]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:900][  4]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:919][  5]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:938][  6]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:957][  7]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:976][  8]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.09:995][  9]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:014][ 10]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:035][ 11]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:053][ 12]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:070][ 13]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:090][ 14]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:110][ 15]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:129][ 16]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:148][ 17]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:168][ 18]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:184][ 19]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:203][ 20]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:222][ 21]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:241][ 22]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:262][ 23]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:281][ 24]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:302][ 25]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:319][ 26]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:337][ 27]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:357][ 28]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:375][ 29]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:394][ 30]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:411][ 31]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:430][ 32]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:450][ 33]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:468][ 34]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:486][ 35]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:504][ 36]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:524][ 37]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:542][ 38]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:562][ 39]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:579][ 40]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:598][ 41]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:615][ 42]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:634][ 43]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:654][ 44]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:673][ 45]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:694][ 46]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:713][ 47]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:734][ 48]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:757][ 49]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:777][ 50]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:795][ 51]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:817][ 52]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:837][ 53]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:855][ 54]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:873][ 55]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:895][ 56]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:913][ 57]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:934][ 58]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:952][ 59]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:973][ 60]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.10:990][ 61]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:010][ 62]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:027][ 63]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:048][ 64]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:066][ 65]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:084][ 66]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:108][ 67]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:129][ 68]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:149][ 69]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:166][ 70]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:185][ 71]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:202][ 72]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:222][ 73]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:241][ 74]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:264][ 75]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:283][ 76]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:304][ 77]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:325][ 78]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:345][ 79]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:365][ 80]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:384][ 81]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:405][ 82]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:425][ 83]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:443][ 84]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:463][ 85]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:481][ 86]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:501][ 87]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:519][ 88]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:540][ 89]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:560][ 90]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:581][ 91]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:602][ 92]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:621][ 93]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:639][ 94]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:658][ 95]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:678][ 96]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:699][ 97]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:719][ 98]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:740][ 99]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:760][100]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:779][101]LogBlueprintUserMessages: [BoxSpawner_2] false
+[2023.03.23-15.02.11:811][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-15.02.11:811][101]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-15.02.11:812][101]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-15.02.11:814][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-15.02.11:858][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-15.02.11:877][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-15.02.11:922][101]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-15.02.11:922][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-15.02.11:924][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-15.02.11:951][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-15.02.11:957][101]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.03.23-15.02.11:990][102]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.03.23-15.02.14:358][200]LogEditorViewport: Clicking on Actor (LMB): OutputDisplay_C (OutputDisplay)
+[2023.03.23-15.02.26:509][686]Cmd: DELETE
+[2023.03.23-15.02.26:509][686]Cmd: ACTOR DELETE
+[2023.03.23-15.02.26:517][686]LogEditorActor: Deleted Actor: BoxSpawner_C
+[2023.03.23-15.02.26:601][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2023.03.23-15.02.26:605][686]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2023.03.23-15.02.31:304][910]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-15.02.31:315][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-15.02.31:315][910]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 15:02:31)
+[2023.03.23-15.02.31:315][910]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-15.02.31:338][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022506s)
+[2023.03.23-15.02.31:339][910]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-15.02.31:341][910]LogPlayLevel: PIE: World Init took: (0.003386s)
+[2023.03.23-15.02.31:341][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.026133s)
+[2023.03.23-15.02.31:388][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.03.23-15.02.31:390][910]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-15.02.31:390][910]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-15.02.31:390][910]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-15.02.31:390][910]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-15.02.31:396][910]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-15.02.31:396][910]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-15.02.31:415][910]LogAudioMixer: Display: Using Audio Device Speakers (Synaptics Audio)
+[2023.03.23-15.02.31:416][910]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-15.02.31:416][910]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-15.02.31:416][910]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-15.02.31:416][910]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-15.02.31:416][910]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-15.02.31:416][910]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-15.02.31:440][910]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-15.02.31:440][910]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-15.02.31:440][910]LogInit: FAudioDevice initialized.
+[2023.03.23-15.02.31:440][910]LogAudio: Display: Audio Device (ID: 28) registered with world 'GameEnvironment'.
+[2023.03.23-15.02.31:452][910]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-15.02.31:461][910]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-15.02.31
+[2023.03.23-15.02.31:462][910]LogWorld: Bringing up level for play took: 0.009486
+[2023.03.23-15.02.31:462][910]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2023.03.23-15.02.31:470][910]PIE: Server logged in
+[2023.03.23-15.02.31:470][910]PIE: Play in editor total start time 0.156 seconds.
+[2023.03.23-15.02.39:190][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-15.02.39:190][320]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-15.02.39:191][320]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-15.02.39:192][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-15.02.39:213][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-15.02.39:219][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-15.02.39:265][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-15.02.39:265][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-15.02.39:266][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-15.02.39:299][320]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.03.23-15.02.39:340][321]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.03.23-15.02.45:259][607]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2023.03.23-15.02.47:220][713]Cmd: DELETE
+[2023.03.23-15.02.47:220][713]Cmd: ACTOR DELETE
+[2023.03.23-15.02.47:227][713]LogEditorActor: Deleted Actor: Cube_C
+[2023.03.23-15.02.47:283][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.03.23-15.02.47:285][713]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2023.03.23-15.07.27:926][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.03.23-15.07.28:044][990]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment_Auto1168D6A6C454F8E5C6D98208C971642E7.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Maps/GameEnvironment_Auto1.umap'
+[2023.03.23-15.07.28:047][990]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PuzzleBP/Maps/GameEnvironment' took 0.169
+[2023.03.23-15.07.28:047][990]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.169
+[2023.03.23-15.41.55:761][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.03.23-15.41.57:637][455]LogSlate: Window 'Save Content' being destroyed
+[2023.03.23-15.41.57:731][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.03.23-15.41.57:844][455]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironmentEFE8FFFF45A23F05DA4FFEA3A016380B.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.23-15.41.57:858][455]LogFileHelpers: Saving map 'GameEnvironment' took 0.177
+[2023.03.23-15.41.57:874][455]AssetCheck: New page: Asset Save: GameEnvironment
+[2023.03.23-15.41.57:874][455]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
