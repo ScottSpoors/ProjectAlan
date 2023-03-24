@@ -3490,3 +3490,1381 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.23-23.35.11:905][384]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay
 [2023.03.23-23.35.11:905][384]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PuzzleBP/Maps/GameEnvironment_BuiltData.GameEnvironment_BuiltData
 [2023.03.23-23.35.11:905][384]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
+[2023.03.23-23.44.06:891][132]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.44.06:905][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.44.06:905][132]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:44:06)
+[2023.03.23-23.44.06:905][132]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.44.06:935][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028710s)
+[2023.03.23-23.44.06:936][132]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.44.06:937][132]LogPlayLevel: PIE: World Init took: (0.001957s)
+[2023.03.23-23.44.06:937][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.030897s)
+[2023.03.23-23.44.06:991][132]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2023.03.23-23.44.06:996][132]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.44.06:996][132]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.44.06:996][132]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.44.06:996][132]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.44.07:002][132]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.44.07:002][132]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.44.07:019][132]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.44.07:019][132]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.44.07:019][132]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.44.07:019][132]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.44.07:021][132]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.44.07:021][132]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.44.07:021][132]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.44.07:051][132]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.44.07:051][132]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.44.07:051][132]LogInit: FAudioDevice initialized.
+[2023.03.23-23.44.07:051][132]LogAudio: Display: Audio Device (ID: 42) registered with world 'GameEnvironment'.
+[2023.03.23-23.44.07:064][132]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.44.07:076][132]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 0) at 2023.03.23-23.44.07
+[2023.03.23-23.44.07:077][132]LogWorld: Bringing up level for play took: 0.012546
+[2023.03.23-23.44.07:077][132]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2023.03.23-23.44.07:082][132]LogStreaming: Warning: Failed to open ANSI TEXT file C:\Users\student.HAL\Documents\GitHub\ProjectAlan\PuzzleTextFiles\example.txt
+[2023.03.23-23.44.07:083][132]PIE: Server logged in
+[2023.03.23-23.44.07:084][132]PIE: Play in editor total start time 0.18 seconds.
+[2023.03.23-23.44.12:961][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.44.12:961][275]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.44.12:961][275]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.44.12:962][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.44.12:984][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.44.13:007][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.44.13:053][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.44.13:053][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.44.13:054][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.44.13:089][275]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2023.03.23-23.44.13:136][276]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.03.23-23.44.30:152][600]BlueprintLog: New page: Compile OutputDisplay
+[2023.03.23-23.44.30:353][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2023.03.23-23.44.32:416][640]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.44.32:429][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.44.32:429][640]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:44:32)
+[2023.03.23-23.44.32:429][640]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.44.32:460][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030128s)
+[2023.03.23-23.44.32:461][640]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.44.32:461][640]LogPlayLevel: PIE: World Init took: (0.001603s)
+[2023.03.23-23.44.32:462][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.031959s)
+[2023.03.23-23.44.32:512][640]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2023.03.23-23.44.32:513][640]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.44.32:513][640]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.44.32:513][640]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.44.32:514][640]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.44.32:514][640]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.44.32:517][640]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.44.32:517][640]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.44.32:532][640]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.44.32:533][640]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.44.32:533][640]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.44.32:533][640]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.44.32:534][640]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.44.32:534][640]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.44.32:534][640]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.44.32:562][640]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.44.32:562][640]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.44.32:562][640]LogInit: FAudioDevice initialized.
+[2023.03.23-23.44.32:562][640]LogAudio: Display: Audio Device (ID: 43) registered with world 'GameEnvironment'.
+[2023.03.23-23.44.32:573][640]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.44.32:584][640]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 0) at 2023.03.23-23.44.32
+[2023.03.23-23.44.32:585][640]LogWorld: Bringing up level for play took: 0.011663
+[2023.03.23-23.44.32:585][640]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2023.03.23-23.44.32:600][640]PIE: Server logged in
+[2023.03.23-23.44.32:601][640]PIE: Play in editor total start time 0.174 seconds.
+[2023.03.23-23.45.30:442][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.45.30:442][ 52]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.45.30:442][ 52]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.45.30:444][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.45.30:494][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.45.30:515][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.45.30:559][ 52]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.45.30:559][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.45.30:560][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.45.30:588][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.45.30:594][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2023.03.23-23.45.30:641][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.03.23-23.46.12:229][615]LogRenderer: Reallocating scene render targets to support 1200x732 Format 10 NumSamples 1 (Frame:1).
+[2023.03.23-23.46.12:876][621]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2023.03.23-23.46.13:002][621]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironment_Auto6DCB454F74477AF33A0FAF39640BFB105.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Maps/GameEnvironment_Auto6.umap'
+[2023.03.23-23.46.13:011][621]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PuzzleBP/Maps/GameEnvironment' took 0.180
+[2023.03.23-23.46.13:011][621]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.180
+[2023.03.23-23.46.13:012][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay] ([1] browsable assets)...
+[2023.03.23-23.46.13:056][621]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay]
+[2023.03.23-23.46.13:056][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay]
+[2023.03.23-23.46.13:258][621]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/OutputDisplay_Auto6DA1B07AC46E53F4DB87C159BBD7851C4.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/Autosaves/Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay_Auto6.uasset'
+[2023.03.23-23.46.13:260][621]LogFileHelpers: Auto-saving content packages took 0.249
+[2023.03.23-23.46.36:073][  3]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ParticleFX/spraySystem.spraySystem
+[2023.03.23-23.46.37:895][  9]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.23-23.47.58:188][318]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.47.58:203][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.47.58:203][318]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:47:58)
+[2023.03.23-23.47.58:204][318]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.47.58:237][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033814s)
+[2023.03.23-23.47.58:239][318]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.47.58:241][318]LogPlayLevel: PIE: World Init took: (0.002901s)
+[2023.03.23-23.47.58:241][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.037044s)
+[2023.03.23-23.47.58:412][318]LogUObjectHash: Compacting FUObjectHashTables data took   9.12ms
+[2023.03.23-23.47.58:418][318]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.47.58:418][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.47.58:418][318]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.47.58:418][318]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.47.58:423][318]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.47.58:423][318]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.47.58:441][318]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.47.58:442][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.47.58:442][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.47.58:442][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.47.58:443][318]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.47.58:443][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.47.58:443][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.47.58:476][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.47.58:476][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.47.58:476][318]LogInit: FAudioDevice initialized.
+[2023.03.23-23.47.58:476][318]LogAudio: Display: Audio Device (ID: 44) registered with world 'GameEnvironment'.
+[2023.03.23-23.47.58:490][318]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.47.58:503][318]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 0) at 2023.03.23-23.47.58
+[2023.03.23-23.47.58:504][318]LogWorld: Bringing up level for play took: 0.013009
+[2023.03.23-23.47.58:505][318]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2023.03.23-23.47.58:513][318]PIE: Server logged in
+[2023.03.23-23.47.58:514][318]PIE: Play in editor total start time 0.312 seconds.
+[2023.03.23-23.48.08:182][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.48.08:182][545]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.48.08:182][545]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.48.08:192][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.48.08:234][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.48.08:246][545]LogNiagaraEditor: onPieEnd
+[2023.03.23-23.48.08:257][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.48.08:307][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.48.08:308][545]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.48.08:310][545]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.48.08:364][545]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2023.03.23-23.48.08:437][546]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.03.23-23.52.48:547][ 48]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.52.48:786][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2023.03.23-23.52.51:459][102]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.52.51:472][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.52.51:472][102]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:52:51)
+[2023.03.23-23.52.51:472][102]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.52.51:495][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023695s)
+[2023.03.23-23.52.51:496][102]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.52.51:496][102]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2023.03.23-23.52.51:496][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.025211s)
+[2023.03.23-23.52.51:556][102]LogUObjectHash: Compacting FUObjectHashTables data took   8.00ms
+[2023.03.23-23.52.51:558][102]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.52.51:559][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.52.51:559][102]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.52.51:559][102]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.52.51:564][102]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.52.51:564][102]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.52.51:582][102]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.52.51:582][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.52.51:582][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.52.51:582][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.52.51:583][102]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.52.51:583][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.52.51:583][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.52.51:618][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.52.51:618][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.52.51:618][102]LogInit: FAudioDevice initialized.
+[2023.03.23-23.52.51:618][102]LogAudio: Display: Audio Device (ID: 45) registered with world 'GameEnvironment'.
+[2023.03.23-23.52.51:630][102]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.52.51:638][102]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.52.51
+[2023.03.23-23.52.51:639][102]LogWorld: Bringing up level for play took: 0.008677
+[2023.03.23-23.52.51:639][102]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2023.03.23-23.52.51:649][102]PIE: Server logged in
+[2023.03.23-23.52.51:650][102]PIE: Play in editor total start time 0.18 seconds.
+[2023.03.23-23.53.00:301][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.53.00:301][320]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.53.00:301][320]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.53.00:303][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.53.00:337][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.53.00:362][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.53.00:410][320]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.53.00:410][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.53.00:412][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.53.00:443][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.53.00:449][320]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2023.03.23-23.53.00:512][321]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.03.23-23.53.19:000][713]LogEditorTransaction: Undo Change Object Pin Value
+[2023.03.23-23.53.19:758][719]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.23-23.53.21:725][764]LogEditorTransaction: Undo Move Node
+[2023.03.23-23.53.22:506][770]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.23-23.53.23:046][781]LogEditorTransaction: Undo Move Nodes
+[2023.03.23-23.53.24:321][798]LogEditorTransaction: Undo Add Node
+[2023.03.23-23.53.24:782][799]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.23-23.53.26:844][836]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.23-23.53.27:603][852]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.53.27:872][852]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2023.03.23-23.53.53:800][908]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.53.53:811][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.53.53:812][908]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:53:53)
+[2023.03.23-23.53.53:812][908]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.53.53:842][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029902s)
+[2023.03.23-23.53.53:844][908]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.53.53:844][908]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2023.03.23-23.53.53:844][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.031971s)
+[2023.03.23-23.53.53:899][908]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2023.03.23-23.53.53:901][908]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.53.53:901][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.53.53:901][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.53.53:902][908]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.53.53:902][908]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.53.53:905][908]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.53.53:905][908]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.53.53:922][908]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.53.53:923][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.53.53:923][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.53.53:923][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.53.53:923][908]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.53.53:924][908]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.53.53:924][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.53.53:948][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.53.53:948][908]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.53.53:948][908]LogInit: FAudioDevice initialized.
+[2023.03.23-23.53.53:948][908]LogAudio: Display: Audio Device (ID: 46) registered with world 'GameEnvironment'.
+[2023.03.23-23.53.53:957][908]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.53.53:967][908]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.53.53
+[2023.03.23-23.53.53:967][908]LogWorld: Bringing up level for play took: 0.009467
+[2023.03.23-23.53.53:967][908]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2023.03.23-23.53.53:975][908]PIE: Server logged in
+[2023.03.23-23.53.53:976][908]PIE: Play in editor total start time 0.166 seconds.
+[2023.03.23-23.54.08:412][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.54.08:412][272]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.54.08:412][272]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.54.08:414][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.54.08:446][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.54.08:468][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.54.08:516][272]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.54.08:517][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.54.08:519][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.54.08:545][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.54.08:554][272]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2023.03.23-23.54.08:597][273]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.03.23-23.54.18:528][494]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.54.18:540][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.54.18:540][494]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:54:18)
+[2023.03.23-23.54.18:540][494]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.54.18:565][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025570s)
+[2023.03.23-23.54.18:566][494]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.54.18:566][494]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2023.03.23-23.54.18:566][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.027097s)
+[2023.03.23-23.54.18:618][494]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2023.03.23-23.54.18:620][494]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.54.18:620][494]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.54.18:620][494]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.54.18:621][494]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.54.18:621][494]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.54.18:625][494]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.54.18:625][494]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.54.18:638][494]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.54.18:640][494]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.54.18:640][494]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.54.18:640][494]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.54.18:640][494]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.54.18:640][494]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.54.18:640][494]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.54.18:666][494]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.54.18:666][494]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.54.18:666][494]LogInit: FAudioDevice initialized.
+[2023.03.23-23.54.18:666][494]LogAudio: Display: Audio Device (ID: 47) registered with world 'GameEnvironment'.
+[2023.03.23-23.54.18:677][494]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.54.18:687][494]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.54.18
+[2023.03.23-23.54.18:689][494]LogWorld: Bringing up level for play took: 0.011102
+[2023.03.23-23.54.18:689][494]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2023.03.23-23.54.18:697][494]PIE: Server logged in
+[2023.03.23-23.54.18:697][494]PIE: Play in editor total start time 0.16 seconds.
+[2023.03.23-23.54.30:970][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.54.30:970][799]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.54.30:970][799]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.54.30:972][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.54.30:990][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.54.31:013][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.54.31:057][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.54.31:057][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.54.31:058][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.54.31:092][799]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2023.03.23-23.54.31:140][800]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.03.23-23.54.54:740][392]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.54.54:979][392]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2023.03.23-23.56.00:475][157]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.56.00:732][157]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
+[2023.03.23-23.56.04:464][237]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.56.04:476][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.56.04:477][237]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:56:04)
+[2023.03.23-23.56.04:486][237]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.56.04:517][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029923s)
+[2023.03.23-23.56.04:518][237]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.56.04:518][237]LogPlayLevel: PIE: World Init took: (0.001354s)
+[2023.03.23-23.56.04:518][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.031555s)
+[2023.03.23-23.56.04:577][237]LogUObjectHash: Compacting FUObjectHashTables data took   8.05ms
+[2023.03.23-23.56.04:581][237]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.56.04:581][237]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.56.04:581][237]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.56.04:582][237]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.56.04:582][237]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.56.04:587][237]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.56.04:587][237]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.56.04:604][237]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.56.04:605][237]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.56.04:605][237]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.56.04:605][237]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.56.04:605][237]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.56.04:605][237]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.56.04:605][237]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.56.04:635][237]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.56.04:635][237]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.56.04:635][237]LogInit: FAudioDevice initialized.
+[2023.03.23-23.56.04:635][237]LogAudio: Display: Audio Device (ID: 48) registered with world 'GameEnvironment'.
+[2023.03.23-23.56.04:645][237]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.56.04:656][237]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.56.04
+[2023.03.23-23.56.04:657][237]LogWorld: Bringing up level for play took: 0.012143
+[2023.03.23-23.56.04:657][237]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2023.03.23-23.56.04:665][237]PIE: Server logged in
+[2023.03.23-23.56.04:666][237]PIE: Play in editor total start time 0.191 seconds.
+[2023.03.23-23.56.25:931][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.56.25:931][772]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.56.25:932][772]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.56.25:933][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.56.25:960][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.56.25:986][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.56.26:035][772]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.56.26:036][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.56.26:037][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.56.26:065][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.56.26:073][772]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2023.03.23-23.56.26:120][773]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.03.23-23.56.26:806][786]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.56.26:817][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.56.26:818][786]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:56:26)
+[2023.03.23-23.56.26:818][786]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.56.26:845][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026547s)
+[2023.03.23-23.56.26:846][786]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.56.26:846][786]LogPlayLevel: PIE: World Init took: (0.001846s)
+[2023.03.23-23.56.26:847][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.028635s)
+[2023.03.23-23.56.26:897][786]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2023.03.23-23.56.26:897][786]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.03.23-23.56.26:897][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.56.26:898][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.56.26:898][786]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.56.26:898][786]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.56.26:902][786]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.56.26:902][786]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.56.26:918][786]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.56.26:918][786]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.56.26:918][786]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.56.26:918][786]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.56.26:920][786]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.56.26:920][786]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.56.26:920][786]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.56.26:945][786]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.56.26:945][786]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.56.26:945][786]LogInit: FAudioDevice initialized.
+[2023.03.23-23.56.26:945][786]LogAudio: Display: Audio Device (ID: 49) registered with world 'GameEnvironment'.
+[2023.03.23-23.56.26:956][786]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.56.26:969][786]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.56.26
+[2023.03.23-23.56.26:970][786]LogWorld: Bringing up level for play took: 0.012308
+[2023.03.23-23.56.26:970][786]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2023.03.23-23.56.26:977][786]PIE: Server logged in
+[2023.03.23-23.56.26:977][786]PIE: Play in editor total start time 0.161 seconds.
+[2023.03.23-23.56.45:931][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.56.45:931][264]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.56.45:931][264]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.56.45:933][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.56.45:955][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.56.45:977][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.56.46:025][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.56.46:025][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.56.46:027][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.56.46:064][264]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2023.03.23-23.56.46:113][265]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.03.23-23.57.08:133][716]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.57.08:391][716]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2023.03.23-23.57.10:637][760]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.57.10:649][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.57.10:649][760]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:57:10)
+[2023.03.23-23.57.10:650][760]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.57.10:677][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026788s)
+[2023.03.23-23.57.10:678][760]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.57.10:678][760]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2023.03.23-23.57.10:678][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.028346s)
+[2023.03.23-23.57.10:736][760]LogUObjectHash: Compacting FUObjectHashTables data took   8.52ms
+[2023.03.23-23.57.10:738][760]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2023.03.23-23.57.10:738][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.57.10:738][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.57.10:738][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.57.10:740][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.57.10:740][760]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.57.10:740][760]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.57.10:740][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.57.10:740][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.57.10:740][760]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.57.10:740][760]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.57.10:745][760]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.57.10:745][760]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.57.10:761][760]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.57.10:762][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.57.10:762][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.57.10:762][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.57.10:762][760]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.57.10:762][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.57.10:762][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.57.10:790][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.57.10:790][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.57.10:790][760]LogInit: FAudioDevice initialized.
+[2023.03.23-23.57.10:790][760]LogAudio: Display: Audio Device (ID: 50) registered with world 'GameEnvironment'.
+[2023.03.23-23.57.10:803][760]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.57.10:814][760]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.57.10
+[2023.03.23-23.57.10:815][760]LogWorld: Bringing up level for play took: 0.012126
+[2023.03.23-23.57.10:815][760]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2023.03.23-23.57.10:824][760]PIE: Server logged in
+[2023.03.23-23.57.10:826][760]PIE: Play in editor total start time 0.177 seconds.
+[2023.03.23-23.57.32:040][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.57.32:040][291]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.57.32:041][291]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.57.32:042][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.57.32:067][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.57.32:092][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.57.32:139][291]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.57.32:139][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.57.32:141][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.57.32:166][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.57.32:175][291]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2023.03.23-23.57.32:223][292]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2023.03.23-23.58.09:033][954]BlueprintLog: New page: Compile ALAN
+[2023.03.23-23.58.09:294][954]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2023.03.23-23.58.12:540][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.23-23.58.12:552][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.23-23.58.12:552][ 19]PIE: New page: PIE session: GameEnvironment (23 Mar 2023, 23:58:12)
+[2023.03.23-23.58.12:552][ 19]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.58.12:578][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026024s)
+[2023.03.23-23.58.12:579][ 19]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.23-23.58.12:580][ 19]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2023.03.23-23.58.12:580][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.028255s)
+[2023.03.23-23.58.12:637][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2023.03.23-23.58.12:638][ 19]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.23-23.58.12:639][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.23-23.58.12:639][ 19]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.23-23.58.12:639][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.23-23.58.12:643][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.23-23.58.12:643][ 19]LogAudioMixer: Display: 1: FrontRight
+[2023.03.23-23.58.12:661][ 19]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.23-23.58.12:662][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.23-23.58.12:662][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.23-23.58.12:662][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.23-23.58.12:663][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.23-23.58.12:663][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.23-23.58.12:663][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.23-23.58.12:696][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.23-23.58.12:696][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.23-23.58.12:696][ 19]LogInit: FAudioDevice initialized.
+[2023.03.23-23.58.12:696][ 19]LogAudio: Display: Audio Device (ID: 51) registered with world 'GameEnvironment'.
+[2023.03.23-23.58.12:710][ 19]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.23-23.58.12:721][ 19]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.23-23.58.12
+[2023.03.23-23.58.12:722][ 19]LogWorld: Bringing up level for play took: 0.010795
+[2023.03.23-23.58.12:723][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2023.03.23-23.58.12:731][ 19]PIE: Server logged in
+[2023.03.23-23.58.12:732][ 19]PIE: Play in editor total start time 0.18 seconds.
+[2023.03.23-23.58.59:821][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.58.59:821][188]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.23-23.58.59:822][188]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.23-23.58.59:823][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.58.59:843][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.23-23.58.59:866][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.23-23.58.59:916][188]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.23-23.58.59:917][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.58.59:918][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.23-23.58.59:950][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.23-23.58.59:959][188]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2023.03.23-23.59.00:011][189]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.03.24-00.06.11:424][635]LogHttp: Warning: 000001DDA2F97200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04614C34-400A-D027-122B-4FBCFDBF5585%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=2bd1560049f6bfcd5d33c290010c7699%7Cd757293e46cd42079c330016444fb4ee%7C51da7cff-1aca-48b1-b65b-55a9c18f3283&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dd136a5f00 [can pipeline])
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.167.17.98) port 443 (#1))
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: 000001DDA2F97200: libcurl info message cache 7 (Closing connection 1)
+[2023.03.24-00.06.11:425][635]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04614C34-400A-D027-122B-4FBCFDBF5585%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=2bd1560049f6bfcd5d33c290010c7699%7Cd757293e46cd42079c330016444fb4ee%7C51da7cff-1aca-48b1-b65b-55a9c18f3283&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.24-00.10.33:605][343]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.33:856][343]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.34:048][343]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.34:998][349]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.10.35:041][350]LogEditorTransaction: Undo Move Nodes
+[2023.03.24-00.10.35:954][357]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.36:745][362]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.37:381][363]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.10.37:661][367]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.38:723][375]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.39:389][377]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.10.39:600][381]LogEditorTransaction: Undo Create Pin Link
+[2023.03.24-00.10.40:655][391]LogEditorTransaction: Undo Move Nodes
+[2023.03.24-00.10.41:459][395]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.10.42:172][409]LogEditorTransaction: Undo Move Nodes
+[2023.03.24-00.10.43:496][422]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.14.26:892][741]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.14.27:201][741]LogUObjectHash: Compacting FUObjectHashTables data took  11.60ms
+[2023.03.24-00.14.36:034][917]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.14.36:046][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.14.36:048][917]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:14:36)
+[2023.03.24-00.14.36:048][917]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.14.36:077][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029361s)
+[2023.03.24-00.14.36:079][917]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.14.36:079][917]LogPlayLevel: PIE: World Init took: (0.001577s)
+[2023.03.24-00.14.36:079][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.031173s)
+[2023.03.24-00.14.36:138][917]LogUObjectHash: Compacting FUObjectHashTables data took   7.55ms
+[2023.03.24-00.14.36:141][917]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.14.36:141][917]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.14.36:141][917]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.14.36:142][917]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.14.36:142][917]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.14.36:146][917]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.14.36:146][917]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.14.36:165][917]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.14.36:166][917]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.14.36:166][917]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.14.36:166][917]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.14.36:168][917]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.14.36:168][917]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.14.36:168][917]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.14.36:196][917]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.14.36:196][917]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.14.36:196][917]LogInit: FAudioDevice initialized.
+[2023.03.24-00.14.36:196][917]LogAudio: Display: Audio Device (ID: 52) registered with world 'GameEnvironment'.
+[2023.03.24-00.14.36:205][917]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.14.36:218][917]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.14.36
+[2023.03.24-00.14.36:220][917]LogWorld: Bringing up level for play took: 0.013451
+[2023.03.24-00.14.36:220][917]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2023.03.24-00.14.36:228][917]PIE: Server logged in
+[2023.03.24-00.14.36:229][917]PIE: Play in editor total start time 0.183 seconds.
+[2023.03.24-00.15.39:661][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.15.39:661][531]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.15.39:662][531]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.15.39:663][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.15.39:732][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.15.39:754][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.15.39:801][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.15.39:802][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.15.39:804][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.15.39:839][531]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2023.03.24-00.15.39:886][532]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.03.24-00.25.27:201][153]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PuzzleBP/Blueprints/BoxSpawner.BoxSpawner
+[2023.03.24-00.41.11:318][581]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.41.11:608][581]LogUObjectHash: Compacting FUObjectHashTables data took   8.54ms
+[2023.03.24-00.41.22:040][786]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.41.22:053][786]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.24-00.41.22:062][786]LogPlayLevel: [PlayLevel] Compiling BoxSpawner before play...
+[2023.03.24-00.41.22:226][786]LogUObjectHash: Compacting FUObjectHashTables data took   9.90ms
+[2023.03.24-00.41.22:228][786]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2023.03.24-00.41.22:228][786]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:41:22)
+[2023.03.24-00.41.22:229][786]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.41.22:255][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025913s)
+[2023.03.24-00.41.22:256][786]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.41.22:256][786]LogPlayLevel: PIE: World Init took: (0.001660s)
+[2023.03.24-00.41.22:256][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.027762s)
+[2023.03.24-00.41.22:315][786]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2023.03.24-00.41.22:316][786]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.41.22:317][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.41.22:317][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.41.22:318][786]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.41.22:318][786]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.41.22:323][786]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.41.22:323][786]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.41.22:344][786]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.41.22:345][786]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.41.22:345][786]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.41.22:345][786]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.41.22:346][786]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.41.22:346][786]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.41.22:346][786]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.41.22:378][786]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.41.22:378][786]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.41.22:378][786]LogInit: FAudioDevice initialized.
+[2023.03.24-00.41.22:378][786]LogAudio: Display: Audio Device (ID: 53) registered with world 'GameEnvironment'.
+[2023.03.24-00.41.22:389][786]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.41.22:398][786]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.41.22
+[2023.03.24-00.41.22:399][786]LogWorld: Bringing up level for play took: 0.010133
+[2023.03.24-00.41.22:400][786]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2023.03.24-00.41.22:408][786]PIE: Server logged in
+[2023.03.24-00.41.22:409][786]PIE: Play in editor total start time 0.357 seconds.
+[2023.03.24-00.41.22:418][786]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:418][786]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:452][787]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:453][787]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:571][788]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:572][788]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:636][789]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:636][789]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:688][790]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:688][790]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:728][791]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:729][791]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:768][792]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:768][792]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:809][793]LogScript: Warning: Attempted to access index 0 from array CommandsExecuted of length 0!
+	ALAN_C /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment:PersistentLevel.ALAN_2
+	Function /Game/PuzzleBP/Blueprints/ALAN.ALAN_C:ExecuteUbergraph_ALAN:1984
+[2023.03.24-00.41.22:809][793]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:851][794]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:891][795]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:932][796]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.22:973][797]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:019][798]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:058][799]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:097][800]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:134][801]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:172][802]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:212][803]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:251][804]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:290][805]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:334][806]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:375][807]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:413][808]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:452][809]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:491][810]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:532][811]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:571][812]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:611][813]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:652][814]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:696][815]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:733][816]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:771][817]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:813][818]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:851][819]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:889][820]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:929][821]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.23:967][822]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:013][823]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:050][824]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:086][825]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:127][826]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:166][827]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:204][828]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:243][829]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:282][830]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:322][831]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:362][832]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:402][833]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:441][834]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:482][835]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:520][836]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:558][837]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:597][838]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:634][839]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:675][840]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:714][841]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:752][842]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:789][843]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:830][844]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:871][845]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:910][846]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.24:955][847]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:000][848]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:043][849]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:085][850]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:125][851]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:172][852]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:214][853]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:256][854]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:299][855]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:343][856]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:387][857]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:431][858]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:471][859]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:508][860]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:553][861]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:591][862]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:630][863]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:672][864]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:712][865]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:751][866]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:790][867]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:830][868]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:868][869]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:908][870]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:946][871]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.25:983][872]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:022][873]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:062][874]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:101][875]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:138][876]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:176][877]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array CommandsExecuted of length 0!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:217][878]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array CommandsExecuted of length 3!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:255][879]PIE: Error: Blueprint Runtime Error: "Attempted to access index 6 from array CommandsExecuted of length 6!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:295][880]PIE: Error: Blueprint Runtime Error: "Attempted to access index 9 from array CommandsExecuted of length 9!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:335][881]PIE: Error: Blueprint Runtime Error: "Attempted to access index 12 from array CommandsExecuted of length 12!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:381][882]PIE: Error: Blueprint Runtime Error: "Attempted to access index 15 from array CommandsExecuted of length 15!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:419][883]PIE: Error: Blueprint Runtime Error: "Attempted to access index 18 from array CommandsExecuted of length 18!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:457][884]PIE: Error: Blueprint Runtime Error: "Attempted to access index 21 from array CommandsExecuted of length 21!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:495][885]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:534][886]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:573][887]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:612][888]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:649][889]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:688][890]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:729][891]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:767][892]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:805][893]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:845][894]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:882][895]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:921][896]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:959][897]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.26:997][898]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:036][899]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:077][900]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:115][901]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:151][902]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:191][903]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:230][904]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:267][905]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:306][906]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:351][907]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:394][908]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:433][909]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:473][910]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:517][911]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:554][912]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:594][913]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:634][914]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:673][915]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:717][916]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:758][917]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:796][918]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:835][919]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:873][920]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:913][921]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:952][922]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.27:989][923]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:030][924]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:069][925]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:108][926]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:148][927]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:187][928]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:225][929]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:263][930]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:303][931]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:342][932]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:384][933]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:424][934]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:464][935]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:502][936]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:541][937]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:581][938]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:618][939]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:655][940]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:697][941]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:739][942]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:776][943]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:821][944]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:865][945]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:904][946]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:943][947]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.28:984][948]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:024][949]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:066][950]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:106][951]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:148][952]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:186][953]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:225][954]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:263][955]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:302][956]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:341][957]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:382][958]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:422][959]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:460][960]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:499][961]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:536][962]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:575][963]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:612][964]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:652][965]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:695][966]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:738][967]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:774][968]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:812][969]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:850][970]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:888][971]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.29:930][972]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.30:041][976]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Ubergraph ALAN Graph:  EventGraph Node:  Branch
+[2023.03.24-00.41.30:099][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.41.30:099][976]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.41.30:100][976]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.41.30:101][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.41.30:160][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.41.30:183][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.41.30:234][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.41.30:235][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.41.30:236][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.41.30:272][976]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2023.03.24-00.41.30:531][977]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.03.24-00.44.50:463][945]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.44.50:748][945]LogUObjectHash: Compacting FUObjectHashTables data took   9.15ms
+[2023.03.24-00.44.54:016][  8]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.44.54:028][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.44.54:028][  8]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:44:54)
+[2023.03.24-00.44.54:028][  8]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.44.54:057][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028795s)
+[2023.03.24-00.44.54:060][  8]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.44.54:061][  8]LogPlayLevel: PIE: World Init took: (0.002234s)
+[2023.03.24-00.44.54:061][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.031325s)
+[2023.03.24-00.44.54:121][  8]LogUObjectHash: Compacting FUObjectHashTables data took   7.36ms
+[2023.03.24-00.44.54:123][  8]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.44.54:123][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.44.54:123][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.44.54:124][  8]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.44.54:124][  8]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.44.54:128][  8]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.44.54:128][  8]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.44.54:146][  8]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.44.54:146][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.44.54:146][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.44.54:146][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.44.54:148][  8]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.44.54:148][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.44.54:148][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.44.54:179][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.44.54:179][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.44.54:179][  8]LogInit: FAudioDevice initialized.
+[2023.03.24-00.44.54:179][  8]LogAudio: Display: Audio Device (ID: 54) registered with world 'GameEnvironment'.
+[2023.03.24-00.44.54:188][  8]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.44.54:196][  8]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.44.54
+[2023.03.24-00.44.54:197][  8]LogWorld: Bringing up level for play took: 0.008436
+[2023.03.24-00.44.54:197][  8]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2023.03.24-00.44.54:204][  8]PIE: Server logged in
+[2023.03.24-00.44.54:205][  8]PIE: Play in editor total start time 0.178 seconds.
+[2023.03.24-00.44.58:792][119]PIE: Error: Blueprint Runtime Error: "Attempted to access index 3 from array CommandsExecuted of length 3!". Blueprint:  ALAN Function:  Execute Command Graph:  Execute Command Node:  Branch
+[2023.03.24-00.44.59:144][128]PIE: Error: Blueprint Runtime Error: "Attempted to access index 24 from array CommandsExecuted of length 24!". Blueprint:  ALAN Function:  Execute Command Graph:  Execute Command Node:  Branch
+[2023.03.24-00.45.04:979][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.04:979][267]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.45.04:980][267]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.45.04:981][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.05:009][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.45.05:033][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.05:087][267]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.24-00.45.05:087][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.05:088][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.05:116][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.05:123][267]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2023.03.24-00.45.05:310][268]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.03.24-00.45.11:292][473]LogSlate: Window 'Message Log' being destroyed
+[2023.03.24-00.45.11:306][473]LogSlate: Window 'Message Log' being destroyed
+[2023.03.24-00.45.32:592][  8]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.45.32:854][  8]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2023.03.24-00.45.35:263][ 55]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.45.35:275][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.45.35:276][ 55]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:45:35)
+[2023.03.24-00.45.35:276][ 55]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.45.35:302][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026546s)
+[2023.03.24-00.45.35:303][ 55]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.45.35:303][ 55]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2023.03.24-00.45.35:303][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.027984s)
+[2023.03.24-00.45.35:369][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   9.33ms
+[2023.03.24-00.45.35:370][ 55]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.45.35:370][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.45.35:371][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.45.35:371][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.45.35:372][ 55]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.45.35:372][ 55]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.45.35:375][ 55]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.45.35:375][ 55]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.45.35:390][ 55]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.45.35:390][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.45.35:390][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.45.35:390][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.45.35:391][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.45.35:391][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.45.35:391][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.45.35:423][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.45.35:423][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.45.35:423][ 55]LogInit: FAudioDevice initialized.
+[2023.03.24-00.45.35:423][ 55]LogAudio: Display: Audio Device (ID: 55) registered with world 'GameEnvironment'.
+[2023.03.24-00.45.35:432][ 55]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.45.35:447][ 55]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.45.35
+[2023.03.24-00.45.35:448][ 55]LogWorld: Bringing up level for play took: 0.014947
+[2023.03.24-00.45.35:448][ 55]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2023.03.24-00.45.35:456][ 55]PIE: Server logged in
+[2023.03.24-00.45.35:457][ 55]PIE: Play in editor total start time 0.184 seconds.
+[2023.03.24-00.45.39:459][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.39:459][148]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.45.39:460][148]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.45.39:461][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.39:505][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.45.39:526][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.39:575][148]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.24-00.45.39:575][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.39:577][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.39:604][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.39:612][148]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2023.03.24-00.45.39:676][149]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.03.24-00.45.43:216][223]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.45.43:228][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.45.43:228][223]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:45:43)
+[2023.03.24-00.45.43:228][223]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.45.43:254][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024622s)
+[2023.03.24-00.45.43:255][223]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.45.43:255][223]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2023.03.24-00.45.43:255][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.026225s)
+[2023.03.24-00.45.43:311][223]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2023.03.24-00.45.43:312][223]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.45.43:313][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.45.43:313][223]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.45.43:313][223]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.45.43:317][223]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.45.43:317][223]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.45.43:334][223]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.45.43:334][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.45.43:334][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.45.43:334][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.45.43:335][223]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.45.43:335][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.45.43:335][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.45.43:363][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.45.43:363][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.45.43:363][223]LogInit: FAudioDevice initialized.
+[2023.03.24-00.45.43:363][223]LogAudio: Display: Audio Device (ID: 56) registered with world 'GameEnvironment'.
+[2023.03.24-00.45.43:373][223]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.45.43:386][223]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.45.43
+[2023.03.24-00.45.43:389][223]LogWorld: Bringing up level for play took: 0.013495
+[2023.03.24-00.45.43:389][223]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2023.03.24-00.45.43:397][223]PIE: Server logged in
+[2023.03.24-00.45.43:398][223]PIE: Play in editor total start time 0.172 seconds.
+[2023.03.24-00.45.52:089][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.52:090][432]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.45.52:090][432]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.45.52:091][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.52:112][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.45.52:136][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.45.52:187][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.45.52:188][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.52:189][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.45.52:224][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2023.03.24-00.45.52:277][433]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.03.24-00.47.02:602][996]LogEditorTransaction: Undo Delete current selection
+[2023.03.24-00.47.03:481][  2]27420_spraySystem_MessageLog: System successfully compiled.
+[2023.03.24-00.47.59:970][443]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.48.00:251][443]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2023.03.24-00.48.04:162][515]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.48.04:174][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.48.04:175][515]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:48:04)
+[2023.03.24-00.48.04:175][515]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.48.04:201][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025501s)
+[2023.03.24-00.48.04:203][515]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.48.04:203][515]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2023.03.24-00.48.04:204][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.027688s)
+[2023.03.24-00.48.04:266][515]LogUObjectHash: Compacting FUObjectHashTables data took   7.73ms
+[2023.03.24-00.48.04:267][515]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.48.04:267][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.48.04:267][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.48.04:268][515]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.48.04:268][515]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.48.04:272][515]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.48.04:272][515]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.48.04:291][515]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.48.04:291][515]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.48.04:291][515]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.48.04:291][515]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.48.04:292][515]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.48.04:292][515]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.48.04:292][515]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.48.04:324][515]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.48.04:324][515]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.48.04:324][515]LogInit: FAudioDevice initialized.
+[2023.03.24-00.48.04:324][515]LogAudio: Display: Audio Device (ID: 57) registered with world 'GameEnvironment'.
+[2023.03.24-00.48.04:339][515]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.48.04:351][515]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.48.04
+[2023.03.24-00.48.04:352][515]LogWorld: Bringing up level for play took: 0.011534
+[2023.03.24-00.48.04:352][515]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2023.03.24-00.48.04:359][515]PIE: Server logged in
+[2023.03.24-00.48.04:361][515]PIE: Play in editor total start time 0.187 seconds.
+[2023.03.24-00.48.09:889][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.48.09:889][644]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.48.09:890][644]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.48.09:891][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.48.09:976][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.48.09:996][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.48.10:049][644]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.24-00.48.10:049][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.48.10:051][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.48.10:084][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.48.10:091][644]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2023.03.24-00.48.10:144][645]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.03.24-00.52.12:819][511]LogSlate: Window 'Message Log' being destroyed
+[2023.03.24-00.52.12:851][511]LogSlate: Window 'Message Log' being destroyed
+[2023.03.24-00.53.19:246][ 89]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.53.19:260][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.53.19:260][ 89]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:53:19)
+[2023.03.24-00.53.19:260][ 89]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.19:288][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028279s)
+[2023.03.24-00.53.19:289][ 89]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.53.19:290][ 89]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2023.03.24-00.53.19:290][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.030001s)
+[2023.03.24-00.53.19:348][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2023.03.24-00.53.19:353][ 89]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.53.19:353][ 89]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.53.19:353][ 89]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.53.19:353][ 89]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.53.19:357][ 89]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.53.19:357][ 89]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.53.19:375][ 89]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.53.19:375][ 89]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.53.19:375][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.53.19:375][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.53.19:376][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.53.19:376][ 89]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.53.19:376][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.53.19:406][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.53.19:406][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.53.19:406][ 89]LogInit: FAudioDevice initialized.
+[2023.03.24-00.53.19:406][ 89]LogAudio: Display: Audio Device (ID: 58) registered with world 'GameEnvironment'.
+[2023.03.24-00.53.19:418][ 89]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.53.19:428][ 89]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.53.19
+[2023.03.24-00.53.19:429][ 89]LogWorld: Bringing up level for play took: 0.009576
+[2023.03.24-00.53.19:429][ 89]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2023.03.24-00.53.19:436][ 89]PIE: Server logged in
+[2023.03.24-00.53.19:437][ 89]PIE: Play in editor total start time 0.178 seconds.
+[2023.03.24-00.53.32:520][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.32:520][550]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.32:520][550]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.53.32:522][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.32:594][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.53.32:616][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.32:668][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.32:669][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.32:670][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.32:706][550]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2023.03.24-00.53.32:754][551]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2023.03.24-00.53.34:547][614]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.53.34:560][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.53.34:560][614]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:53:34)
+[2023.03.24-00.53.34:561][614]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.34:585][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024893s)
+[2023.03.24-00.53.34:586][614]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.53.34:587][614]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2023.03.24-00.53.34:587][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.026844s)
+[2023.03.24-00.53.34:641][614]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2023.03.24-00.53.34:643][614]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.53.34:643][614]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.53.34:643][614]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.53.34:643][614]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.53.34:644][614]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.53.34:647][614]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.53.34:647][614]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.53.34:664][614]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.53.34:665][614]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.53.34:665][614]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.53.34:665][614]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.53.34:666][614]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.53.34:666][614]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.53.34:666][614]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.53.34:694][614]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.53.34:694][614]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.53.34:694][614]LogInit: FAudioDevice initialized.
+[2023.03.24-00.53.34:694][614]LogAudio: Display: Audio Device (ID: 59) registered with world 'GameEnvironment'.
+[2023.03.24-00.53.34:704][614]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.53.34:714][614]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.53.34
+[2023.03.24-00.53.34:715][614]LogWorld: Bringing up level for play took: 0.010375
+[2023.03.24-00.53.34:715][614]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2023.03.24-00.53.34:723][614]PIE: Server logged in
+[2023.03.24-00.53.34:725][614]PIE: Play in editor total start time 0.166 seconds.
+[2023.03.24-00.53.42:030][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.42:030][887]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.42:031][887]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.53.42:032][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.42:051][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.53.42:073][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.42:123][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.24-00.53.42:123][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.42:124][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.42:159][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.42:167][887]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2023.03.24-00.53.42:214][888]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.03.24-00.53.43:253][916]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.53.43:267][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.53.43:267][916]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:53:43)
+[2023.03.24-00.53.43:268][916]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.43:295][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026902s)
+[2023.03.24-00.53.43:296][916]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.53.43:296][916]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2023.03.24-00.53.43:296][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.028357s)
+[2023.03.24-00.53.43:357][916]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2023.03.24-00.53.43:358][916]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.53.43:358][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.53.43:358][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.53.43:359][916]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.53.43:359][916]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.53.43:362][916]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.53.43:362][916]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.53.43:378][916]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.53.43:378][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.53.43:378][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.53.43:378][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.53.43:379][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.53.43:379][916]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.53.43:379][916]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.53.43:408][916]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.53.43:408][916]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.53.43:408][916]LogInit: FAudioDevice initialized.
+[2023.03.24-00.53.43:408][916]LogAudio: Display: Audio Device (ID: 60) registered with world 'GameEnvironment'.
+[2023.03.24-00.53.43:421][916]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.53.43:431][916]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.53.43
+[2023.03.24-00.53.43:433][916]LogWorld: Bringing up level for play took: 0.011124
+[2023.03.24-00.53.43:433][916]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2023.03.24-00.53.43:442][916]PIE: Server logged in
+[2023.03.24-00.53.43:443][916]PIE: Play in editor total start time 0.176 seconds.
+[2023.03.24-00.53.59:049][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.59:049][512]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.53.59:049][512]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.53.59:051][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.59:071][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.53.59:095][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.53.59:146][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.53.59:146][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.59:148][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.53.59:183][512]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2023.03.24-00.53.59:230][513]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2023.03.24-00.56.07:589][336]BlueprintLog: New page: Compile ALAN
+[2023.03.24-00.56.07:862][336]LogUObjectHash: Compacting FUObjectHashTables data took   9.18ms
+[2023.03.24-00.56.11:236][416]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.56.11:248][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.56.11:248][416]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:56:11)
+[2023.03.24-00.56.11:249][416]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.56.11:276][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027284s)
+[2023.03.24-00.56.11:278][416]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.56.11:278][416]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2023.03.24-00.56.11:278][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.029504s)
+[2023.03.24-00.56.11:341][416]LogUObjectHash: Compacting FUObjectHashTables data took   8.41ms
+[2023.03.24-00.56.11:344][416]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.56.11:344][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.56.11:344][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.56.11:345][416]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.56.11:345][416]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.56.11:351][416]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.56.11:351][416]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.56.11:368][416]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.56.11:368][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.56.11:368][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.56.11:368][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.56.11:369][416]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.56.11:369][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.56.11:369][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.56.11:404][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.56.11:404][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.56.11:404][416]LogInit: FAudioDevice initialized.
+[2023.03.24-00.56.11:404][416]LogAudio: Display: Audio Device (ID: 61) registered with world 'GameEnvironment'.
+[2023.03.24-00.56.11:416][416]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.56.11:428][416]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.56.11
+[2023.03.24-00.56.11:430][416]LogWorld: Bringing up level for play took: 0.013886
+[2023.03.24-00.56.11:430][416]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2023.03.24-00.56.11:437][416]PIE: Server logged in
+[2023.03.24-00.56.11:440][416]PIE: Play in editor total start time 0.192 seconds.
+[2023.03.24-00.56.21:989][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.56.21:989][811]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.56.21:989][811]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.56.21:991][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.56.22:018][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.56.22:043][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.56.22:096][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.24-00.56.22:096][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.56.22:097][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.56.22:130][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.56.22:139][811]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2023.03.24-00.56.22:186][812]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2023.03.24-00.57.04:703][177]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.24-00.57.04:713][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.24-00.57.04:713][177]PIE: New page: PIE session: GameEnvironment (24 Mar 2023, 00:57:04)
+[2023.03.24-00.57.04:714][177]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.57.04:737][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022833s)
+[2023.03.24-00.57.04:738][177]LogAIModule: Creating AISystem for world GameEnvironment
+[2023.03.24-00.57.04:738][177]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2023.03.24-00.57.04:739][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment to /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment (0.024759s)
+[2023.03.24-00.57.04:797][177]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2023.03.24-00.57.04:803][177]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.24-00.57.04:803][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.24-00.57.04:803][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.24-00.57.04:804][177]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.24-00.57.04:804][177]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.24-00.57.04:808][177]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.24-00.57.04:808][177]LogAudioMixer: Display: 1: FrontRight
+[2023.03.24-00.57.04:823][177]LogAudioMixer: Display: Using Audio Device 1 - LS24A600U (AMD High Definition Audio Device)
+[2023.03.24-00.57.04:823][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.24-00.57.04:823][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.24-00.57.04:823][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.24-00.57.04:824][177]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.24-00.57.04:824][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.24-00.57.04:824][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.24-00.57.04:851][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.24-00.57.04:851][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.24-00.57.04:851][177]LogInit: FAudioDevice initialized.
+[2023.03.24-00.57.04:851][177]LogAudio: Display: Audio Device (ID: 62) registered with world 'GameEnvironment'.
+[2023.03.24-00.57.04:864][177]LogLoad: Game class is 'PuzzleGameMode_C'
+[2023.03.24-00.57.04:875][177]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment.GameEnvironment up for play (max tick rate 60) at 2023.03.24-00.57.04
+[2023.03.24-00.57.04:876][177]LogWorld: Bringing up level for play took: 0.011086
+[2023.03.24-00.57.04:876][177]LogOnline: OSS: Creating online subsystem instance for: :Context_77
+[2023.03.24-00.57.04:882][177]PIE: Server logged in
+[2023.03.24-00.57.04:883][177]PIE: Play in editor total start time 0.17 seconds.
+[2023.03.24-00.57.49:060][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.57.49:060][751]LogWorld: BeginTearingDown for /Game/PuzzleBP/Maps/UEDPIE_0_GameEnvironment
+[2023.03.24-00.57.49:060][751]LogWorld: UWorld::CleanupWorld for GameEnvironment, bSessionEnded=true, bCleanupResources=true
+[2023.03.24-00.57.49:062][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.57.49:089][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.24-00.57.49:115][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.24-00.57.49:172][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.24-00.57.49:172][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.57.49:173][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.24-00.57.49:206][751]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2023.03.24-00.57.49:254][752]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2023.03.24-00.58.02:434][132]LogUObjectHash: Compacting FUObjectHashTables data took   7.11ms
+[2023.03.24-00.58.04:099][132]LogSlate: Window 'Save Content' being destroyed
+[2023.03.24-00.58.04:271][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/ALAN" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/ALAN.uasset" SILENT=true
+[2023.03.24-00.58.04:834][132]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/ALAN24955C6E4ECBC7B2DFE3C290269C6976.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/ALAN.uasset'
+[2023.03.24-00.58.04:837][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/BoxSpawner" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/BoxSpawner.uasset" SILENT=true
+[2023.03.24-00.58.04:893][132]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/BoxSpawnerBCCAEAE4470745392C3550B01AAEA6C1.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/BoxSpawner.uasset'
+[2023.03.24-00.58.04:954][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.24-00.58.05:073][132]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/GameEnvironmentE81CCA2F4B84B304613592BFE05434E7.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Maps/GameEnvironment.umap'
+[2023.03.24-00.58.05:098][132]LogFileHelpers: Saving map 'GameEnvironment' took 0.203
+[2023.03.24-00.58.05:347][132]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/OutputDisplay61FA033241A74D5A4B4AFDA0DC947D7E.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.uasset'
+[2023.03.24-00.58.05:351][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ParticleFX/spraySystem" FILE="E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/ParticleFX/spraySystem.uasset" SILENT=true
+[2023.03.24-00.58.05:475][132]LogSavePackage: Moving 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Saved/spraySystemCD3D0EEF4F72352DBDE8AD8E4646327D.tmp' to 'E:/Documents/GitHub/ProjectAlan/Unreal Engine Files/Alan/Content/ParticleFX/spraySystem.uasset'
+[2023.03.24-00.58.05:512][132]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.24-00.58.05:512][132]LogContentValidation: Display: Validating NiagaraSystem /Game/ParticleFX/spraySystem.spraySystem
+[2023.03.24-00.58.05:512][132]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/ALAN.ALAN
+[2023.03.24-00.58.05:512][132]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/BoxSpawner.BoxSpawner
+[2023.03.24-00.58.05:512][132]LogContentValidation: Display: Validating Blueprint /Game/PuzzleBP/Blueprints/CommandInterface/OutputDisplay.OutputDisplay
+[2023.03.24-00.58.05:512][132]LogContentValidation: Display: Validating World /Game/PuzzleBP/Maps/GameEnvironment.GameEnvironment
