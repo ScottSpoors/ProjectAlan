@@ -1,0 +1,9 @@
+All non-referenced assets were created rather than sourced.
+
+References:
+looping_factory_ambience https://freesound.org/people/InspectorJ/sounds/385943/ 
+aerospray 1-3 (spraySounds) https://freesound.org/people/C-V/sounds/516815/ 
+SwitchButtonSounds https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks
+Beep_Buttons https://opengameart.org/content/hi-tech-button-sound-pack-i-non-themed 
+
+After sourcing, audio assets were edited in Audacity and then implemented into Unreal using sound cue logic and blueprinting.
